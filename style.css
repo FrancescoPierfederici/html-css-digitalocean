@@ -78,11 +78,11 @@ section{
 .fnt-sz-big2{
     font-size: 25px;
 }
-.panel-container{
-    max-width:420px;
+/* .form-container{
+    max-width:400px;
     margin: auto;
 
-}
+} */
 .padding-but{
     padding:6px 18px;
 }
@@ -90,9 +90,9 @@ section{
     margin-top:10px ;
 }
 
-.bluebutton{
-    width:420px;
-}
+/* .bluebutton{
+    width:90%;
+} */
 .padding-top{
 padding-top: 10px;
 }
@@ -109,4 +109,7 @@ padding-top: 10px;
 .textdecoration{
     text-decoration:underline;
     
+}
+.inblock{
+    display: inline-block;
 }
