@@ -23,7 +23,7 @@ section{
    background-color: hsl(220,95%,8%);
 }
 .bluedarkertext{
-    color: hsl(220,95%,8%);
+    color: rgb(2, 19, 54);
  }
 .bggrey{
     background-color: #f3f5f9;
@@ -66,7 +66,6 @@ section{
 }
 .fnt-sz-big{
     font-size: 55px;
-
 }
 
 .text-gray{
@@ -74,6 +73,9 @@ section{
 }
 .text-gray2{
     color: gray;
+}
+.text-gray3{
+    color: rgba(128, 128, 128, 0.849);
 }
 .fnt-sz-big2{
     font-size: 25px;
@@ -89,12 +91,15 @@ section{
 .margintop{
     margin-top:10px ;
 }
+.margintop2{
+    margin-top:30px ;
+}
 
 /* .bluebutton{
     width:90%;
 } */
 .padding-top{
-padding-top: 10px;
+    padding-top: 10px;
 }
 .bordern{
     border-left: hidden;
@@ -107,9 +112,33 @@ padding-top: 10px;
     margin-top: 5px;
 }
 .textdecoration{
-    text-decoration:underline;
-    
+    text-decoration:underline;  
 }
 .inblock{
     display: inline-block;
+}
+.absolut{
+    position: absolute;
+    left: 0;
+    height:20px;
+}
+.relativ{
+    position: relative;
+}
+.lineh{
+    line-height: 30px;
+}
+.fnt-sz-big3{
+    font-size: 20px;
+}
+.fnt-sz-big4{
+    font-size: 11px;
+}
+.listdep{
+    line-height: 40px;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.row-small{
+    max-width:780px
 }
