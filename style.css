@@ -132,7 +132,7 @@ section{
     font-size: 20px;
 }
 .fnt-sz-big4{
-    font-size: 11px;
+    font-size: 15px;
 }
 .listdep{
     line-height: 40px;
@@ -140,5 +140,8 @@ section{
     padding-left: 10px;
 }
 .row-small{
-    max-width:780px
+    max-width:960px
+}
+.row-small2{
+    max-width:900px
 }
