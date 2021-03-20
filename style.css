@@ -104,7 +104,12 @@ section{
 .padding-top{
     padding-top: 10px;
 }
-
+.padding-top2{
+    padding-top: 60px;
+}
+.paddingbotto{
+    padding-bottom: 25px;
+}
 .bordern{
     border-left: hidden;
     border-top: hidden;
@@ -138,6 +143,9 @@ section{
 .fnt-sz-big4{
     font-size: 15px;
 }
+.fnt-sz-big6{
+    font-size: 16px;
+}
 .listdep{
     line-height: 40px;
     border-left: 2px solid;
@@ -161,4 +169,62 @@ section{
     border:1px solid #006aff; 
     border-radius: 50%;
     display: inline-block;
-  }
+}
+.bordertopnone{
+      border-top: hidden;
+}
+.bluelink{
+      color: rgb(5, 226, 255);
+}
+.mrgleft{
+      margin-left: 190px;
+}
+.imgheight{
+      height: 100px;
+}
+.paddingbotto2{
+    padding-bottom: 80px;
+}
+.panelwid{
+    max-width: 650px;
+}
+.h398{
+    height: 400px;
+    vertical-align: middle;
+    line-height: 400px;
+}
+.fnts-big5{
+    font-size:20px;
+}
+.paddingright{
+    padding-right: 10px;
+}
+.listn{
+    list-style: none;
+}
+.positionfixed{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 5%;  
+}
+.positionfixed .bgblue{
+    border-radius: 5px;
+}
+.numberCircle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /* padding: 10px; */
+
+    background: rgb(233, 30, 30);
+    border: 4px solid white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    right:-8px;
+    top:-8px;
+    vertical-align: middle;
+    line-height :22px; ;
+   
+}
