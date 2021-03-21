@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-/* colori */
+
 section{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -58,6 +58,12 @@ section{
 .navbar>.container-fluid .navbar-brand {
     padding:7px 7px;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(88, 169, 245);
+}
+.navbar-default .navbar-toggle {
+    border-color:white;
+}
 .navbar{
     margin-bottom:0;
 }
@@ -81,13 +87,16 @@ section{
     color: rgba(128, 128, 128, 0.849);
 }
 .fnt-sz-big2{
-    font-size: 25px;
+    font-size: 22px;
 }
 /* .form-container{
     max-width:400px;
     margin: auto;
 
 } */
+.h100{
+    height: 100px;
+}
 .padding-but{
     padding:6px 18px;
 }
@@ -114,6 +123,7 @@ section{
     border-left: hidden;
     border-top: hidden;
 }
+
 .marginbottom5px{
     margin-bottom: 5px;
 }
