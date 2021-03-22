@@ -219,7 +219,7 @@ section{
     position:fixed;
     right: 20px;
     bottom: 20px;
-    width: 5%;  
+    width: 60px;  
 }
 .positionfixed .bgblue{
     border-radius: 5px;
@@ -240,4 +240,15 @@ section{
     vertical-align: middle;
     line-height :22px; ;
    
+}
+.chat{
+    position: absolute;
+    background-color: white;
+    border:1px solid black;
+    color:rgb(2, 19, 54) ;
+    width: 250px;
+    top:-20px;
+    left:-270px;
+    border-radius: 5px;
+    padding:10px;
 }
