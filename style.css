@@ -173,6 +173,9 @@ section{
   line-height: 500px;
   
 }
+.objectf{
+    object-fit: contain;
+}
 .dot {
     height: 12px;
     width: 12px;
