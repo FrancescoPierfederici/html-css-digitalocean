@@ -70,6 +70,7 @@ section{
 .navbar-default .navbar-nav>li>a {
     color: hsl(220,95%,8%);
 }
+
 .text-white{
     color: white;
 }
@@ -189,8 +190,8 @@ section{
 .bluelink{
       color: rgb(5, 226, 255);
 }
-.mrgleft{
-      margin-left: 190px;
+.text-alr{
+      text-align: right;
 }
 .imgheight{
       height: 100px;
@@ -252,3 +253,14 @@ section{
     border-radius: 5px;
     padding:10px;
 }
+@media screen and (min-width: 769px) and (max-width: 991px) {
+.nav>li>a{
+    padding: 15px 8px;
+}
+.fnt-size11px{
+font-size: 11px;
+}
+.imgsize{
+    margin-right: 0;
+}
+ }
